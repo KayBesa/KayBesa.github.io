@@ -10,6 +10,7 @@
 
 body{
     background: #06131c;
+    color: #d6cece;
 }
 /** Start of styling for Header **/
 .header{
@@ -47,4 +48,11 @@ body{
 }
 
 /** End of styling for Header **/
+
+/** Start of styling for hompage content **/
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
 
