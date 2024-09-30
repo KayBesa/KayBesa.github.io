@@ -11,7 +11,7 @@
 body{
     background: #06131c;
 }
-
+/** Start of styling for Header **/
 .header{
     position: fixed;
     top: 0;
@@ -23,3 +23,20 @@ body{
     align-items: center;
     z-index: 100;
 }
+
+.logo{
+    font-size: 25px;
+    color: #d6cece;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: #d6cece;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+/** End of styling for Header **/
+
