@@ -135,8 +135,39 @@ body{
     width: 100%;
 
 }
+.pic-box{
+    display: inline-flex;
+    width: 420px;
+    height: 420px;
+    margin-left:80px;
+    margin-top: 90px;
+    
+}
+
+.picture{
+    border-radius: 250px;
+}
+
+.home-smi{
+    position: absolute;
+    width: 150px;
+    bottom: 40px;
 
 
+}
+
+.home-smi a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: 2px solid rgb(83, 83, 178);
+    border-radius: 50%;
+    text-decoration: none;
+    color:rgb(83, 83, 178);
+}
 
 
 /** End of styling for hompage content **/
