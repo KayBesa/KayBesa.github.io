@@ -54,5 +54,55 @@ body{
     display: flex;
     align-items: center;
     height: 100vh;
+    padding:0 10%;
 }
 
+.home-cnt{
+    max-width: 600px;
+}
+
+.home-cnt h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-cnt h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(83, 83, 178);
+}
+
+.home-cnt p{
+    font-size: 16px;
+}
+
+.home-cnt .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a{
+    width: 150px;
+    height: 100%;
+    background: rgb(83, 83, 178);
+    border: 2px solid rgb(83, 83, 178);
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-box :nth-child(2){
+    background: transparent;
+    color: rgb(83, 83, 178);
+}
+
+
+
+/** End of styling for hompage content **/
