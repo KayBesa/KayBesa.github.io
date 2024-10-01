@@ -1,0 +1,174 @@
+/** Main styling for portfolio **/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #06131c;
+    color: #d6cece;
+}
+/** Start of styling for Header **/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: transparent;
+}
+
+.logo{
+    font-size: 25px;
+    color: #d6cece;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: #d6cece;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .2s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(83, 83, 178);
+}
+
+/** End of styling for Header **/
+
+/** Start of styling for hompage content **/
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding:0 10%;
+}
+
+.home-cnt{
+    max-width: 600px;
+}
+
+.home-cnt h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-cnt h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(83, 83, 178);
+}
+
+.home-cnt p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.home-cnt .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a{
+    position: relative;
+    width: 150px;
+    height: 100%;
+    background: rgb(83, 83, 178);
+    border: 2px solid rgb(83, 83, 178);
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.btn-box a:hover{
+    color: rgb(83, 83, 178);
+}
+.btn-box :nth-child(2){
+    background: transparent;
+    color: rgb(83, 83, 178);
+}
+
+.btn-box :nth-child(2):hover{
+    color: #06131c;
+}
+.btn-box :nth-child(2)::before{
+    background: rgb(83, 83, 178);
+}
+
+.btn-box a::before{
+    content:'';
+    position: absolute;
+    background: #06131c;
+    top: 0;
+    left: 0;
+    width:0;
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+
+}
+
+.btn-box a:hover::before{
+    width: 100%;
+
+}
+.pic-box{
+    display: inline-flex;
+    width: 420px;
+    height: 420px;
+    margin-left:80px;
+    margin-top: 90px;
+    
+}
+
+.picture{
+    border-radius: 250px;
+}
+
+.home-smi{
+    position: absolute;
+    width: 150px;
+    bottom: 40px;
+
+
+}
+
+.home-smi a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: 2px solid rgb(83, 83, 178);
+    border-radius: 50%;
+    text-decoration: none;
+    color:rgb(83, 83, 178);
+}
+
+
+/** End of styling for hompage content **/
+
