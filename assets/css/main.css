@@ -172,3 +172,34 @@ body{
 
 /** End of styling for hompage content **/
 
+/** Start of styling for contact page content **/
+.contact{
+    height: 100vh;
+}
+
+.contact-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: rgb(83, 83, 178)
+}
+
+.contact-intro h1{
+    font-size: 56px;
+    font-weight: 700;
+
+}
+
+.contact-cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25%;
+}
+
+.contact-details h3{
+    text-decoration: none;
+}
+/** End of styling for contact page content **/
